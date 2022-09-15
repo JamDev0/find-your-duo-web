@@ -1,4 +1,5 @@
-import { PublishNewAdBtn } from './PublishNewAdBtn'
+import { PublishNewAdModal } from './PublishNewAdModal'
+import { PublishNewAdBtn } from './PublishNewAdModal/components/PublishNewAdBtn'
 
 export function PublishNewAdContainer() {
   return (
@@ -14,7 +15,7 @@ export function PublishNewAdContainer() {
           </span>
         </div>
 
-        <PublishNewAdBtn />
+        <PublishNewAdModal />
       </section>
     </div>
   )
